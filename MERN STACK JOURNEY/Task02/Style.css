@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0;  */
+  /* padding: 0; */
+}
+
+body {
+  background-color: lightcoral;
+}
+
+.head {
+  color: darkblue;
+}
+
+#bglime{
+  background-color: yellow;
+  color: red;
+}
+
+p{
+  color: white;
+}
+
+#para {
+  color: green;
+}
+
+p>span{
+  color: black;
+  font-size: 20px;
+}
+
+ol>:nth-child(2)>span{
+    color: blue;
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+ol>:nth-child(3)>span{
+  color: blue;
+  background-color: violet;
+  text-decoration: underline;
+}
+
+
+ul>:nth-child(2){
+  color: blue;
+}
+
+ul>:nth-child(3){
+  color: red;
+}
