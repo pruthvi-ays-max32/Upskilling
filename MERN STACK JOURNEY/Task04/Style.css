@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 10vh;
+  font-size: larger;
+}
+
+nav{
+  display: inline-block;
+  padding-top: 20px;
+  width: 65%;
+}
+
+#logo{
+  float: left;
+  padding-left: 7%;
+  padding-top: 20px;
+  font-weight:bold;
+  font-size: x-large;
+  width: 20%;
+  max-height: fit-content;
+}
+
+
+.nav-btn{
+  border:none;
+  background-color: white;
+  font-size: 15px;
+  margin: 0px 20px;
+  padding: 0px 20px;
+}
+
+.nav-btn:hover{
+  color: blue;
+  transform: scale(1.1);
+}
+
+#username {
+  border:none;
+  float: right;
+  margin: 20px;
+  margin-right: 55px;
+  background-color: aquamarine;
+  color: black;
+  height: 50px;
+  width: 10%;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+#username:hover{
+  background-color: rgb(121, 220, 187);
+  color: black; 
+  transform: scale(1.1);
+}
+
+.main-container{
+  width: 100vw;
+  min-height: 100%;
+  padding:10% 5%;
+}
+
+#contentDiv{
+  width: 50%;
+  float: left;
+  padding: 7% 7%;
+  font-weight:bolder;
+  font-size: 20px;
+}
+
+#imgDiv{
+  width: 50%;
+  float: right;
+}
+
+img{
+  width: 100%;
+  padding: 0px 2%;
+}
+
+
+#contentDiv>button{
+  background-color: aquamarine;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  min-height: 30px;
+  padding: 2% 2%;
+}
+
+#contentDiv>button:hover{
+  background-color: rgb(136, 213, 187);
+  color: black;
+  transform: scale(1.1);
+}
